@@ -1,0 +1,51 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the admin interface.
+  admin:
+
+    # These strings are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: Post segnalati
+      view_flags_label: Visualizza post segnalati
+
+  # Strings in this namespace are used by the forum user interface.
+  forum:
+
+    # These strings are used by the Flag Post modal dialog.
+    flag_post:
+      reason_heading: Scegli un motivo
+      reason_inappropriate_label: Inappropriato
+      reason_off_topic_label: "Fuori tema"
+      reason_other_label: Altro
+      reason_spam_label: Spam
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These strings are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: Nessuna segnalazione
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These strings are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_tooltip: Scarta segnalazione
+      flagged_by_text: "{username} ha segnalato"
+      flagged_by_with_reason_text: "{username} ha segnalato come {reason}"
+
+    # These strings are used by the post control buttons.
+    post_controls:
+      flag_button: Segnala
+
+  ##
+  # REUSED STRINGS - These keys should not be used directly in code!
+  ##
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: Post segnalato
+    flagged_posts: Post segnalati

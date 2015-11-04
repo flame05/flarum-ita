@@ -1,0 +1,22 @@
+{
+    "name": "flarum/italiano",
+    "type": "flarum-extension",
+    "description": "Pacchetto lingua - Italiano.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "extra": {
+        "flarum-extension": {
+            "title": "Italiano",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "it",
+            "title": "Italiano"
+        }
+    }
+}

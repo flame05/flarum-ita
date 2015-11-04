@@ -1,3 +1,7 @@
+//! moment.js locale configuration
+//! locale : italian (it)
+//! author : Lorenzo : https://github.com/aliem
+//! author: Mattia Larentis: https://github.com/nostalgiaz
     moment.locale('it', {
         months : 'gennaio_febbraio_marzo_aprile_maggio_giugno_luglio_agosto_settembre_ottobre_novembre_dicembre'.split('_'),
         monthsShort : 'gen_feb_mar_apr_mag_giu_lug_ago_set_ott_nov_dic'.split('_'),
@@ -51,7 +55,3 @@
             doy : 4  // The week that contains Jan 4th is the first week of the year.
         }
     });
-
-    return it;
-
-}));

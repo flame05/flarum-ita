@@ -1,6 +1,7 @@
 {
-    "name": "flarum/italiano",
+    "name": "flame/ita",
     "type": "flarum-extension",
+    "version": "v0.1",
     "description": "Pacchetto lingua - Italiano.",
     "keywords": ["locale"],
     "license": "MIT",

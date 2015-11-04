@@ -23,7 +23,7 @@ flarum-likes:
     post:
       like_link: Apprezza
       liked_by_text: "{users} apprezza questo.|{users} apprezzano questo."
-      liked_by_self_text: "{users} apprezza.|{users} apprezzano."  # Can be pluralized to agree with the number of users!
+      liked_by_self_text: "Apprezzi.|{users} apprezzano."  # Can be pluralized to agree with the number of users!
       others_link: => core.ref.some_others
       unlike_link: Non apprezzo più
       you_text: => core.ref.you

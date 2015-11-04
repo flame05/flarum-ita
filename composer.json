@@ -1,10 +1,24 @@
 {
     "name": "flame05/flarum-ita",
     "type": "flarum-extension",
-    "version": "v0.1",
-    "description": "Pacchetto lingua - Italiano.",
+    "description": "Italian language pack for Flarum and its bundled extensions.",
+    "homepage": "http://discuss.flarum.org/d/1354-italian-language-pack",
     "keywords": ["locale"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Bernasconi",
+            "email": "daniel@cerchio.ch",
+            "homepage": "http://daniel.world"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flame05/flarum-ita/issues",
+        "source": "https://github.com/flame05/flarum-ita"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.3"
+    },
     "extra": {
         "flarum-extension": {
             "title": "Italiano",

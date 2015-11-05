@@ -9,29 +9,29 @@ flarum-likes:
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
-      like_posts_label: Apprezzare post
+      like_posts_label: Like posts
 
   # Strings in this namespace are used by the forum user interface.
   forum:
 
     # These strings are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      post_liked_text: "{username} apprezza il tuo messaggio|{username} apprezzano il tuo messaggio"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "{username} liked your post"  # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
 
     # These strings are displayed beneath individual posts.
     post:
-      like_link: Apprezza
-      liked_by_text: "{users} apprezza questo.|{users} apprezzano questo."
-      liked_by_self_text: "Apprezzi.|{users} apprezzano."  # Can be pluralized to agree with the number of users!
+      like_link: Like
+      liked_by_text: "{users} likes this.|{users} like this."
+      liked_by_self_text: "{users} like this."  # Can be pluralized to agree with the number of users!
       others_link: => core.ref.some_others
-      unlike_link: Non apprezzo più
+      unlike_link: Unlike
       you_text: => core.ref.you
 
     # These strings are used by the Users Who Like This modal dialog.
     post_likes:
-      title: Utenti che hanno apprezzato questo
+      title: Users Who Like This
 
     # These strings are used in the Settings page.
     settings:
-      notify_post_liked_label: Qualcuno apprezza un mio messaggio
+      notify_post_liked_label: Someone likes one of my posts
